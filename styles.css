@@ -19,24 +19,25 @@ header {
 }
 
 h1 {
-	text-align: right;
-	padding-right: 200px;
-	padding-top: 100px;
-	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	padding-left: 200px;
+	padding-top: 80px;
+	font-family: 'Lora', serif;
 	color: white;
-	font-size: 34pt;
+	font-size: 38pt;
 }
 
 h3 {
 	text-align:center;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lora', serif;
 	color: white;
 }
 .container{
 padding-top: 490px;
 }
+
 p{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   font-size:14pt;
 margin-top: 15px;
   margin-bottom: 40px;
@@ -44,10 +45,10 @@ margin-top: 15px;
   margin-left: 170px;
 }
 p.byline{
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Lora', serif;
 	color: white;
-	padding-right: 70px;
-	text-align: right;
+	padding-left: 60px;
+	text-align: left;
 	padding-top: -100px;
 
 
@@ -67,12 +68,14 @@ img.float{
 blockquote {
   font-style: italic;
   font-size: 18pt;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lora', serif;
   margin-right: 200px;
   margin-left: 200px;
   margin-bottom: 40px;
+  border-left: none;
 
 }
+
 hr{
 
 	border-style: inset;
@@ -83,7 +86,7 @@ hr{
 .footer {
 box-sizing: border-box; /* will need vendor prefixes for webkit and mozilla */
 font-size: 8px;
-font-family: 'Raleway', sans-serif;
+font-family: 'Lora', serif;
 color: grey;
 padding-left: 189px;
 margin-top: -10px;
